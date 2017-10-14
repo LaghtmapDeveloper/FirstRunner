@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{0E16028A-A675-451B-5C35-DD975D955AB3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Android\google_play_services\docs\navtree_data.js" />
+     <Compile Include="Assets\Plugins\Android\google_play_services\docs\reference\lists.js" />
+     <Compile Include="Assets\Plugins\Android\google_play_services\docs\timestamp.js" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\two_column_list_preference_item.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout-land\snapshot_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\fragment_promo_address_lookup.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\ui_settings_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\horizontal_divider.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\helloworld\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\my_location_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\layers_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\snapshot_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\menu\mode_settings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\activity_login.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\cuteanimals\res\layout\activity_splashscreen.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\res\layout\fragment_collaborators.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\street_view_panorama_events_demo.xml" />
+     <None Include="Assets\AssetsStore\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\polyline_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\fragment_item_list.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\auth\gau\res\layout\accounts_tester.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\queue_update_items_activity.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\unified\ActivityDemo\app\proguard-rules.txt" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\cuteanimals\res\values-v11\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\split_street_view_panorama_and_map_demo.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\cuteanimals\Readme.txt" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\helloworld\res\layout\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\auth\suw\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\cuteanimals\res\layout\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\fragment_full_wallet_confirmation_button.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\camera_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\cuteanimals\res\layout\activity_image_view.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\list_selection_dialog.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\street_view_panorama_view_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\quickeditor\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\helloworld\res\values-v14\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\quickeditor\res\layout\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\conflictdemo\res\values-w820dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\list_item.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\analytics\res\layout\event.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\analytics\res\xml\global_tracker.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\values\themes.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\menu\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\analytics\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\README.txt" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\tictactoe\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\auth\suw\res\layout\auth_suw_launcher.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\res\layout\activity_listfiles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\lite_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\analytics\res\layout\screenview.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\helloworld\Readme.txt" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\conflictdemo\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\auth\suw\AndroidManifest.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\analytics\res\layout\exception.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\cast_player_activity.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\unified\ActivityDemo\app\src\main\AndroidManifest.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\tile_coordinate_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\street_view_panorama_navigation_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\auth\gau\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\cancel_ok_button_row.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\fragment_login.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\res\layout\activity_changeevents.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\conflictdemo\res\menu\main.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\values-v11\themes.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\cuteanimals\res\menu\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\tile_overlay_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\cuteanimals\res\values-v14\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\cuteanimals\res\layout\activity_category_view.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\main.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\res\layout\activity_playground_document.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\res\values-v11\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\legal_info.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\values\strings.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\unified\ActivityDemo\app\src\main\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\add_cancel_ok_button_row.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\proguard-project.txt" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.52.0.txt" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\lite_list_demo_row.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\res\layout\fragment_collaborative_custom_object.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\res\menu\activity_home.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\auth\gau\res\values\strings.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\conflictdemo\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\text_fragment.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\visible_region_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\res\layout\fragment_events.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\menu\main.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\fragment_cart_detail.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\queue_load_activity.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\conflictdemo\res\layout\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\menu\menu_logout.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\custom_info_contents.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\res\layout\fragment_collaborative_string.xml" />
+     <None Include="Assets\Scripts\NGUI\ReadMe - 3.9.8.txt" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\circle_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\street_view_panorama_options_demo.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\xml\media.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\multimap_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\helloworld\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\queue_insert_and_play_item_activity.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\panorama\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\quickeditor\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\res\layout\fragment_collaborative_list.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\values\phone_strings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\res\values\titles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\queue_item.xml" />
+     <None Include="Assets\AssetsStore\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\map_in_pager_demo.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\activity_item_details.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\helloworld\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\vertical_divider.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\conflictdemo\res\values\dimens.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\panorama\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\edit_queue_item_activity.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\lint.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\options_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\menu\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\values-v14\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\helloworld\res\menu\activity_main.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\raw_mapview_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\analytics\res\layout\ecommerce.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\media_track_item.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\values-v11\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\res\layout\row_collaborator.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\lite_listener_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\custom_info_window.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\unified\ActivityDemo\app\src\main\res\values\leaderboards.xml" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\analytics\res\xml\ecommerce_tracker.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\basic_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\unified\ActivityDemo\app\src\main\res\layout\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\edit_text_dialog.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\lite_list_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\values\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\activity_item_list.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\tictactoe\res\menu\main.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\queue_insert_items_activity.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout-xlarge-land\activity_item_list.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\res\layout\activity_realtime_playground_home.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\media_item.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\conflictdemo\lint.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\res\layout\fragment_collaborative_map.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\res\layout\activity_progress.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\res\menu\menu_playground_document.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\cuteanimals\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\analytics\res\layout\social.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\analytics\res\layout\timing.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\activity_order_complete.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\save_state_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\quickeditor\res\menu\activity_main.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\cuteanimals\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\res\layout\activity_home.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\activity_checkout.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\quickeditor\res\values\strings.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\values-v14\themes.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\marker_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\values\dimens.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\menu\menu_login.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\res\values\strings.xml" />
+     <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\activity_confirmation.xml" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+     <None Include="Assets\Scripts\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\demos\res\values-v14\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\layout\fragment_item_details.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\xml\application_preferences.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\cuteanimals\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\mode_select_activity.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\wallet\res\drawable\bikestore_btn_default_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\conflictdemo\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\drive\playground\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\tictactoe\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\democastplayer\res\layout\queue_jump_activity.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\polygon_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\street_view_panorama_basic_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\cast\tictactoe\res\layout\game.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\indoor_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\feature.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\events_demo.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\analytics\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\tagmanager\helloworld\res\values-v11\styles.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\unified\ActivityDemo\app\src\main\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google_play_services\samples\maps\res\layout\ground_overlay_demo.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="ConsolePro.RemoteServer">
+ <HintPath>C:/Users/Илья/Desktop/Runner/Assets/ConsolePro/ConsolePro.RemoteServer.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

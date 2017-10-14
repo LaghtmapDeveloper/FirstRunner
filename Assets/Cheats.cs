@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Cheats : MonoBehaviour 
 {
+	#if UNITY_EDITOR
 	void Update () 
 	{
 		if (Input.GetKeyDown (KeyCode.V))
@@ -12,4 +13,5 @@ public class Cheats : MonoBehaviour
 		if (Input.GetKeyDown (KeyCode.B))
 			GameMaster.Instance.Awake ();
 	}
+	#endif
 }
